@@ -1,0 +1,4 @@
+study,name,label,description,active
+soep-test,v1,soep-test v1,,FALSE
+soep-test,v2,soep-test v2,,FALSE
+soep-test,v3,soep-test v3,,TRUE

@@ -1,0 +1,77 @@
+<codebook>
+  <dataDscr>
+    <var ID="PERSNR" intrvl="numeric" files="apgen">
+      <labl>Unveraenderliche Personennummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">121.2</sumStat>
+      <sumStat type="Median">689.5</sumStat>
+      <sumStat type="Mean">1736</sumStat>
+      <sumStat type="3rd Qu.">2864</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="ap37" intrvl="numeric" files="apgen">
+      <labl>BMI numeric</labl>
+      <sumStat type="Min.">19.03</sumStat>
+      <sumStat type="1st Qu.">21.21</sumStat>
+      <sumStat type="Median">22.72</sumStat>
+      <sumStat type="Mean">22.93</sumStat>
+      <sumStat type="3rd Qu.">24.41</sumStat>
+      <sumStat type="Max.">27.89</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="ap37k" intrvl="labeled_numeric" files="apgen">
+      <labl>BMI categorical</labl>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Very severely underweight</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Severely underweight</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>Underweight</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>Normal(healthy weight)</labl>
+        <catStat type="freq">15</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>Overweight</labl>
+        <catStat type="freq"> 4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>Obese Class I (Moderately obese)</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>Obese Class II (Severely obese</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>Obese Class III (Very severely obese)</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+    </var>
+  </dataDscr>
+  <fileDscr ID="apgen"/>
+</codebook>

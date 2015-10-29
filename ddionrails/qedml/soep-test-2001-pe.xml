@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.05" DocumentEditStatus="Normal" xsi:noNamespaceSchemaLocation="http://www.qedml.org/QEDML/QEDML-0105.xsd"><Constants>
+<Constant Name="UsePrecodes">True</Constant>
+<Constant Name="UseDimensionsVariableNames">True</Constant>
+<Constant Name="UseOdinVariables">False</Constant>
+<Constant Name="ProjectNumber"></Constant>
+<Constant Name="Country">de</Constant>
+<Constant Name="Language">de</Constant>
+<Constant Name="Index">False</Constant>
+<Constant Name="FirstPage">False</Constant>
+<Constant Name="Instrument">CAWI</Constant>
+<Constant Name="Questionnaire">Fragebogen</Constant><Constant Name="SignOf">Konformität zu TNS Infratest Qualitätsstandards.</Constant><Constant Name="CheckedBy">Gepr\'fcft durch:</Constant><Constant Name="Authors">TNS Autor(en):</Constant><Constant Name="Version">Version</Constant><Constant Name="Company">TNS Infratest</Constant><Constant Name="Page">Seite</Constant><Constant Name="Page2">von</Constant><Constant Name="Title">Projekttitel:</Constant><Constant Name="For">F\'fcr: </Constant><Constant Name="CreationDate">Erstellt</Constant><Constant Name="JobNumber">Projekt-Nr</Constant>
+<Constant Name="PanelText"></Constant>
+<Constant Name="SampleDescription"></Constant>
+<Constant Name="LengthOfInterview">0</Constant>
+<Constant Name="RepeatingStudy"></Constant>
+<Constant Name="Comments"></Constant>
+<Constant Name="ContactName"></Constant>
+<Constant Name="ContactFunction"></Constant>
+<Constant Name="ContactPhone"></Constant>
+<Constant Name="ContactEmail"></Constant>
+<Constant Name="QuotaFieldInformation"></Constant>
+<Constant Name="DescriptionOfTarget"></Constant>
+<Constant Name="Author2"></Constant>
+<Constant Name="Author3"></Constant>
+<Constant Name="Author4"></Constant>
+<Constant Name="SampleSizeNet">0</Constant>
+<Constant Name="SampleSizeGross">0</Constant>
+<Constant Name="ClientInfo"></Constant>
+<Constant Name="CheckInSite"></Constant>
+</Constants>
+<Element CompoundQuestionType="None" DataType="" ElementType="Questionnaire" Format="" Grouping="None" HideQuestionLabel="true" Hidden="false" Enabled="true" id="21160" Orientation="Vertical" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="" ListColumns="1" Mandatory="true" AllowComment="false" Name="21160" Order="Normal" ElementRotationPoint="0" ElementLimit="0" ListOrder="Normal" ListLimit="0" ListRotationPoint="0" QuestionType="None" Timing="30">
+<ElementSet>
+<Element CompoundQuestionType="None" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843728" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843728" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="SinglePunch" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Ihr Geschlecht:</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Geschlecht</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>0</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q1 | PSEX | Geschlecht</WordQuestionHeader>
+<VariableName>PSEX</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Single coded</QuestionType>
+<QuestionNumber>1</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="Q2" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843729" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843729" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="Basic" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Ihr Geburtsjahr:</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Geburtsjahr</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>1</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q2 | PPGEB | Geburtsjahr</WordQuestionHeader>
+<VariableName>PPGEB</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Numeric</QuestionType>
+<QuestionNumber>2</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843730" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843730" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="Basic" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Welche Staatsangehörigkeit haben Sie?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Staatsangehörigkeit</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">Bitte eintragen:
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>2</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q3 | PPNAT | Staatsangehörigkeit</WordQuestionHeader>
+<VariableName>PPNAT</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Open</QuestionType>
+<QuestionNumber>3</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843731" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843731" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="SinglePunch" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Wie ist Ihr Familienstand?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Familienstand</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>0</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q4 | PFAMST | Familienstand</WordQuestionHeader>
+<VariableName>PFAMST</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Single coded</QuestionType>
+<QuestionNumber>4</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843732" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843732" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="MultiPunch" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Hat sich an Ihrer familiären Situation nach dem 31.12.1999 etwas verändert?
+Geben Sie bitte an, ob einer der folgenden Punkte zutrifft.
+</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">familiäre Veränderungen</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">Zutreffendes bitte ankreuzen!
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>1</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q5 | PFS XXX 1 | familiäre Veränderungen</WordQuestionHeader>
+<VariableName>PFS XXX 1</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Multi coded</QuestionType>
+<QuestionNumber>5</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="qGroup_sp" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843733" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843733" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="SinglePunch" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Zum Schluss möchten wir Sie noch nach Ihrer Zufriedenheit mit Ihrem Leben insgesamt fragen.
+
+Wie zufrieden sind Sie gegenwärtig, alles in allem, mit Ihrem Leben?
+</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Zufriedenheit</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">Antworten Sie bitte wieder anhand der folgenden Skala,
+bei der &quot;0&quot; ganz und gar unzufrieden, &quot;10&quot; ganz und gar zufrieden bedeutet.</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>2</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q6 | PZULE1 | Zufriedenheit</WordQuestionHeader>
+<VariableName>PZULE1</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Matrix</QuestionType>
+<MatrixScaleMulti>False</MatrixScaleMulti>
+<QuestionNumber>6</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet>
+</ElementSet>
+</Element>
+<Element CompoundQuestionType="qGroup_sp" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843734" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="SinglePunch" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Wie zufrieden sind Sie gegenwärtig mit den folgenden Bereichen Ihres Lebens?
+
+Wie zufrieden sind Sie ...
+</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Zufriedenheit</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">Bitte kreuzen Sie für jeden Bereich auf der Skala einen Wert an:
+Wenn Sie ganz und gar unzufrieden sind, den Wert &quot;0&quot;,
+wenn Sie ganz und gar zufrieden sind, den Wert &quot;10&quot;.
+Wenn Sie teils zufrieden/teils unzufrieden sind, einen Wert dazwischen.</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>0</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q7 | PZUF XX | Zufriedenheit</WordQuestionHeader>
+<VariableName>PZUF XX</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Matrix</QuestionType>
+<MatrixScaleMulti>False</MatrixScaleMulti>
+<QuestionNumber>7</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014139" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit Ihrer Gesundheit?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>1</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014140" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit Ihrem Schlaf?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>20</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014141" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">(falls Sie erwerbstätig sind) mit Ihrer Arbeit?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>2</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014142" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">(falls Sie im Haushalt tätig sind) mit Ihrer Tätigkeit im Haushalt?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>3</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014143" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit dem Einkommen Ihres Haushalts?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>4</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014144" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit Ihrem persönlichen Einkommen?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>5</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014145" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit Ihrer Wohnung?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>7</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014146" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit Ihrer Freizeit?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>8</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014147" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit Ihrem Familienleben?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>13</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014148" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">(falls Sie Kinder im Vorschulalter haben) mit den vorhandenen Möglichkeiten der Kinderbetreuung?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>9</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="" DisplayListComment="false" ElementType="Loop" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="6014149" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843734" ListColumns="1" Mandatory="False" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="None" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">mit der Demokratie, so wie sie in Deutschland besteht</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language=""></LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<QuestionId>843734</QuestionId>
+<ElementType>Statement</ElementType>
+<AnswerCode>12</AnswerCode>
+<StrikeThrough>False</StrikeThrough>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+</ElementSet>
+</Element>
+<Element CompoundQuestionType="None" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843735" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843735" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="Basic" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Welche berufliche Tätigkeit üben Sie derzeit aus?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">berufliche Tätigkeit/genau</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht &quot;kaufmännische
+Angestellte&quot;, sondern: &quot;Speditionskauffrau&quot;, nicht &quot;Arbeiter&quot;, sondern: &quot;Maschinenschlosser&quot;.
+Wenn Sie Beamter sind, geben Sie bitte Ihre Amtsbezeichnung an, z.B. &quot;Polizeimeister&quot;,
+oder &quot;Studienrat&quot;. Wenn Sie Auszubildender sind, geben Sie bitte Ihren Ausbildungsberuf an.</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>1</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q8 | PBER | berufliche Tätigkeit/genau</WordQuestionHeader>
+<VariableName>PBER</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Open</QuestionType>
+<QuestionNumber>8</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="Q9" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843736" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843736" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="Basic" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Geben Sie bitte an, wie hoch im Durchschnitt der monatliche Betrag für folgende Einkunft war: 
+Lohn/Gehalt als Arbeitnehmer (einschl. Ausbildungsvergütung, Altersteilzeitbezüge, Lohnfortzahlungen)
+
+(Gemeint ist der Bruttobetrag, also vor Abzug eventueller Steuern und Sozialversicherungsbeiträge).
+</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Einkommen/Lohn Betrag</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>2</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q9 | PVEK012 | Einkommen/Lohn Betrag</WordQuestionHeader>
+<VariableName>PVEK012</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Numeric</QuestionType>
+<QuestionNumber>9</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="Q10" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843737" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843737" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="Basic" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Geben Sie bitte an, wie hoch im Durchschnitt der monatliche Betrag für folgende Einkunft war: 
+Einkommen aus selbstständiger/freiberuflicher Tätigkeit
+
+(Gemeint ist der Bruttobetrag, also vor Abzug eventueller Steuern und Sozialversicherungsbeiträge).
+</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Einkommen/selbstständige Tätigkeit Betrag</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>0</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q10 | PVEK022 | Einkommen/selbstständige Tätigkeit Betrag</WordQuestionHeader>
+<VariableName>PVEK022</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Numeric</QuestionType>
+<QuestionNumber>10</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843738" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843738" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="SinglePunch" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Politikinteresse</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>1</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q11 | PPOL1 | Politikinteresse</WordQuestionHeader>
+<VariableName>PPOL1</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Single coded</QuestionType>
+<QuestionNumber>11</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="dummy" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843739" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843739" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="SinglePunch" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Welcher Partei neigen Sie zu?</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Partei</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>2</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q12 | PPOL3 | Partei</WordQuestionHeader>
+<VariableName>PPOL3</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Single coded</QuestionType>
+<QuestionNumber>12</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="Q13" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843740" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843740" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="Basic" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Was ist Ihre Körpergröße in cm?
+</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Körpergröße</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">Wenn Sie es nicht genau wissen, schätzen Sie bitte.
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>0</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q13 | PGR | Körpergröße</WordQuestionHeader>
+<VariableName>PGR</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Numeric</QuestionType>
+<QuestionNumber>13</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+<Element CompoundQuestionType="None" DataType="Q14" DisplayListComment="false" ElementType="Question" Format="" Grouping="None" HideQuestionLabel="false" Hidden="false" Enabled="true" id="843741" Orientation="None" ListReference="Inline" WeightingFactor="1" MaxTimeAllowed="0" List="Q843741" ListColumns="1" Mandatory="True" AllowComment="false" Name="" Order="Normal" ElementRotationPoint="1" ElementLimit="0" ListOrder="Normal" ListRotationPoint="1" QuestionType="Basic" Timing="0">
+<CorrectAnswer></CorrectAnswer>
+<DefaultAnswer></DefaultAnswer>
+<ListFilter Operator="" />
+<MainText>
+<LanguageStrings>
+<LanguageString Language="">Wie viel Kilogramm wiegen Sie gegenwärtig?
+</LanguageString>
+</LanguageStrings>
+</MainText>
+<Notes></Notes>
+<PreFilter>
+<CodeElements />
+</PreFilter>
+<PostFilter>
+<CodeElements />
+</PostFilter>
+<PreText>
+<LanguageStrings>
+<LanguageString Language="">Körpergewicht</LanguageString>
+</LanguageStrings>
+</PreText>
+<PostText>
+<LanguageStrings>
+<LanguageString Language="">Wenn Sie es nicht genau wissen, schätzen Sie bitte.
+</LanguageString>
+</LanguageStrings>
+</PostText>
+<Footnote>
+<LanguageStrings />
+</Footnote>
+<QuestionLabel></QuestionLabel>
+<ReportLabel>
+<LanguageStrings />
+</ReportLabel>
+<MetaData>
+<Data Domain="Qlib">
+<Conditional></Conditional>
+<ConditionalTarget></ConditionalTarget>
+<InRepeater></InRepeater>
+<ListOrder>Normal</ListOrder>
+<ResearcherNotes></ResearcherNotes>
+<ScripterNotes></ScripterNotes>
+<ClientNotes></ClientNotes>
+<DataProcessorNotes></DataProcessorNotes>
+<TopOfMind>False</TopOfMind>
+<TopOfMindNumberOfAnswers>0</TopOfMindNumberOfAnswers>
+<DummyQuestion>False</DummyQuestion>
+<DataMap>
+<DataPosition>0</DataPosition>
+<DataLength>0</DataLength>
+<DataRemark></DataRemark>
+</DataMap>
+<NumberOfFields>0</NumberOfFields>
+<QuestionMod3>1</QuestionMod3>
+<OdinRouting></OdinRouting>
+<DimensionsRouting></DimensionsRouting>
+<WordQuestionHeader>Q14 | PKILO | Körpergewicht</WordQuestionHeader>
+<VariableName>PKILO</VariableName>
+<NotBack>False</NotBack>
+<AnswerText></AnswerText>
+<QuestionType>Numeric</QuestionType>
+<QuestionNumber>14</QuestionNumber>
+</Data>
+</MetaData>
+<ElementSet />
+</Element>
+</ElementSet></Element>
+<Lists>
+<List ListType="Shared" Name="Q843728">
+<Description />
+<ListExpression />
+<Items>
+<Item Code="2" Style="1" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Männlich</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="1" Style="2" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Weiblich</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+</Items>
+</List><List ListType="Shared" Name="Q843730">
+<Description />
+<ListExpression />
+<Items>
+</Items>
+</List><List ListType="Shared" Name="Q843731">
+<Description />
+<ListExpression />
+<Items>
+<Item Code="1" Style="1" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Verheiratet, mit Ehepartner zusammenlebend</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="2" Style="2" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Verheiratet, dauernd getrennt lebend</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="3" Style="3" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Ledig</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="4" Style="4" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Geschieden</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="5" Style="5" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Verwitwet</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+</Items>
+</List><List ListType="Shared" Name="Q843732">
+<Description />
+<ListExpression />
+<Items>
+<Item Code="11" Style="1" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Habe geheiratet</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="21" Style="2" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Bin mit Partner/Partnerin zusammengezogen</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="31" Style="3" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Kind wurde geboren</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="111" Style="4" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Kind kam in den Haushalt</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="41" Style="5" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Sohn/Tochter hat den Haushalt verlassen</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="51" Style="6" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Habe mich von Ehepartner/Lebenspartner getrennt</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="61" Style="7" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Wurde geschieden</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="71" Style="8" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Ehepartner/Lebenspartner ist verstorben</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="81" Style="9" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Vater ist verstorben</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="91" Style="10" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Mutter ist verstorben</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="121" Style="11" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Kind ist verstorben</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="131" Style="12" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Andere Person, die hier im Haushalt lebte, ist verstorben</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="101" Style="13" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Sonstige familiäre Veränderung</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+</Items>
+</List><List ListType="Shared" Name="Q843733">
+<Description />
+<ListExpression />
+<Items>
+<Item Code="1" Style="1" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">ganz und gar unzufrieden 0</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="2" Style="2" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">1</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="3" Style="3" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">2</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="4" Style="4" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">3</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="5" Style="5" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">4</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="6" Style="6" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">5</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="7" Style="7" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">6</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="8" Style="8" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">7</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="9" Style="9" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">8</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="10" Style="10" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">9</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="11" Style="11" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">ganz und gar zufrieden 10</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+</Items>
+</List><List ListType="Shared" Name="Q843734">
+<Description />
+<ListExpression />
+<Items>
+<Item Code="1" Style="1" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">ganz und gar unzufrieden 0</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="2" Style="2" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">1</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="3" Style="3" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">2</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="4" Style="4" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">3</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="5" Style="5" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">4</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="6" Style="6" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">5</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="7" Style="7" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">6</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="8" Style="8" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">7</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="9" Style="9" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">8</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="10" Style="10" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">9</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="11" Style="11" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">ganz und gar zufrieden 10</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+</Items>
+</List><List ListType="Shared" Name="Q843735">
+<Description />
+<ListExpression />
+<Items>
+</Items>
+</List><List ListType="Shared" Name="Q843738">
+<Description />
+<ListExpression />
+<Items>
+<Item Code="1" Style="1" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Sehr stark</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="2" Style="2" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Stark</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="3" Style="3" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Nicht so stark</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="4" Style="4" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Überhaupt nicht</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+</Items>
+</List><List ListType="Shared" Name="Q843739">
+<Description />
+<ListExpression />
+<Items>
+<Item Code="1" Style="1" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">SPD</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="2" Style="2" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">CDU</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="3" Style="3" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">CSU</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="4" Style="4" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">FDP</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="5" Style="5" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Bündnis 90 / Die Grünen</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="6" Style="6" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Die Linke</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="7" Style="7" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">DVU / Republikaner / NPD</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+<Item Code="8" Style="8" ForceSinglePunch="False" Hidden="False" IsOther="False" Fixed = "False" Special="">
+<Text>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">Andere</LanguageString>
+</LanguageStrings>
+</Text>
+<Comment>
+<LanguageStrings>
+<LanguageString Language="" TranslationStatus="Undefined">
+</LanguageString>
+</LanguageStrings>
+</Comment>
+</Item>
+</Items>
+</List></Lists>
+<UDTs>
+<UDT Min="0" Max="0" Name="dummy" Type="Text">
+<FormatString />
+<HelpText />
+</UDT>
+<UDT Min="1891" Max="2001" Name="Q2" Type="Numeric">
+<FormatString />
+<HelpText />
+</UDT>
+<UDT Min="1" Max="1000000" Name="Q9" Type="Numeric">
+<FormatString />
+<HelpText />
+</UDT>
+<UDT Min="1" Max="1000000" Name="Q10" Type="Numeric">
+<FormatString />
+<HelpText />
+</UDT>
+<UDT Min="0" Max="230" Name="Q13" Type="Numeric">
+<FormatString />
+<HelpText />
+</UDT>
+<UDT Min="0" Max="300" Name="Q14" Type="Numeric">
+<FormatString />
+<HelpText />
+</UDT>
+</UDTs>
+<Languages><Language><Code /></Language></Languages>
+<ScriptTypes><ScriptType /></ScriptTypes>
+<Description>soep-test-2001-pe</Description>
+<Author>DIW Hebing</Author>
+<Organization>TNS</Organization>
+<KeyWords />
+<DateCreated>14-8-2014 13:18:03</DateCreated>
+<DateModified>14-8-2014</DateModified>
+<Header><LanguageStrings><LanguageString>
+<Language /><TranslationStatus />
+</LanguageString></LanguageStrings></Header>
+<Footer><LanguageStrings><LanguageString>
+<Language /><TranslationStatus />
+</LanguageString></LanguageStrings></Footer>
+<BaseLanguage />
+<ExportLanguage>CAWI</ExportLanguage>
+<ExportCodeType>4</ExportCodeType>
+<PreviewTemplate />
+<Notes />
+<Quotas />
+<AllowEditing />
+<FileName />
+<Version>2</Version>
+<GUID />
+</Project>

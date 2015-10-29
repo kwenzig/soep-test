@@ -1,0 +1,1126 @@
+<codebook>
+  <dataDscr>
+    <var ID="bp01" intrvl="labeled_numeric" files="bp">
+      <labl>Geschlecht</labl>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Männlich</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Weiblich</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+    </var>
+    <var ID="bp02" intrvl="numeric" files="bp">
+      <labl>Geburtsjahr</labl>
+      <sumStat type="Min.">1912</sumStat>
+      <sumStat type="1st Qu.">1964</sumStat>
+      <sumStat type="Median">1970</sumStat>
+      <sumStat type="Mean">1966</sumStat>
+      <sumStat type="3rd Qu.">1975</sumStat>
+      <sumStat type="Max.">1984</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="bp03" intrvl="string" files="bp">
+      <labl>Staatsangehörigkeit</labl>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="bp04" intrvl="labeled_numeric" files="bp">
+      <labl>Familienstand</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Verheiratet, mit Ehepartner zusammenlebend</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Verheiratet, dauernd getrennt lebend</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>Ledig</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>Geschieden</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>Verwitwet</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+    </var>
+    <var ID="bp05" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, habe geheiratet</labl>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">2</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">17</catStat>
+      </catgry>
+    </var>
+    <var ID="bp06" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, bin mit Partner/Partnerin zusammengezogen</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp07" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, Kind wurde geboren</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+    </var>
+    <var ID="bp08" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, Kind kam in den Haushalt</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+    </var>
+    <var ID="bp09" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, Sohn/Tochter hat den Haushalt verlassen</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp10" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, habe mich von Ehepartner/Lebenspartner getrennt</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp11" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, wurde geschieden</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp12" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, Ehepartner/Lebenspartner verstorben</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">19</catStat>
+      </catgry>
+    </var>
+    <var ID="bp13" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, Vater gestorben</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp14" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, Mutter ist verstorben</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp15" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, Kind ist verstorben</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp16" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, andere Person, die im Haushalt lebte, ist verstorben</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp17" intrvl="labeled_numeric" files="bp">
+      <labl>familiäre Veränderungen, sonstige Veränderung</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">20</catStat>
+      </catgry>
+    </var>
+    <var ID="bp18" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit Leben insgesamt</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+    </var>
+    <var ID="bp19" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit Ihrer Gesundheit?</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+    </var>
+    <var ID="bp20" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit Ihrem Schlaf?</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp21" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit (falls Sie erwerbstätig sind) mit Ihrer Arbeit?</labl>
+      <sumStat type="valid">14</sumStat>
+      <sumStat type="invalid">7</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+    </var>
+    <var ID="bp22" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit (falls Sie im Haushalt tätig sind) mit Ihrer Tätigkeit im Haushalt</labl>
+      <sumStat type="valid">17</sumStat>
+      <sumStat type="invalid">4</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp23" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit dem Einkommen Ihres Haushalts</labl>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">2</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp24" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit Ihrem persönlichen Einkommen?</labl>
+      <sumStat type="valid">16</sumStat>
+      <sumStat type="invalid">5</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp25" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit Ihrer Wohnung</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp26" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit Ihrer Freizeit?</labl>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">2</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp27" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit Ihrem Familienleben</labl>
+      <sumStat type="valid">18</sumStat>
+      <sumStat type="invalid">3</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+    </var>
+    <var ID="bp28" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit (falls Sie Kinder im Vorschulalter haben) mit den vorhandenen Mögl</labl>
+      <sumStat type="valid">2</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp29" intrvl="labeled_numeric" files="bp">
+      <labl>Zufriedenheit mit der Demokratie, so wie sie in Deutschland besteht</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10 Zufrieden: Skala 1-Niedrig bis 10-Hoch</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp30" intrvl="string" files="bp">
+      <labl>berufliche Tätigkeit/genau</labl>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="bp31" intrvl="numeric" files="bp">
+      <labl>Einkommen/Lohn Betrag</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">850</sumStat>
+      <sumStat type="Median">1600</sumStat>
+      <sumStat type="Mean">2014</sumStat>
+      <sumStat type="3rd Qu.">2900</sumStat>
+      <sumStat type="Max.">7100</sumStat>
+      <sumStat type="NA's">4</sumStat>
+      <sumStat type="valid">17</sumStat>
+      <sumStat type="invalid">4</sumStat>
+    </var>
+    <var ID="bp32" intrvl="numeric" files="bp">
+      <labl>Einkommen/selbstständige Tätigkeit Betrag</labl>
+      <sumStat type="Min.">4700</sumStat>
+      <sumStat type="1st Qu.">5275</sumStat>
+      <sumStat type="Median">5850</sumStat>
+      <sumStat type="Mean">5850</sumStat>
+      <sumStat type="3rd Qu.">6425</sumStat>
+      <sumStat type="Max.">7000</sumStat>
+      <sumStat type="NA's">19</sumStat>
+      <sumStat type="valid">2</sumStat>
+      <sumStat type="invalid">19</sumStat>
+    </var>
+    <var ID="bp33" intrvl="labeled_numeric" files="bp">
+      <labl>Politikinteresse</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Sehr stark</labl>
+        <catStat type="freq">4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Stark</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>Nicht so stark</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>Überhaupt nicht</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+    </var>
+    <var ID="bp34" intrvl="labeled_numeric" files="bp">
+      <labl>Partei</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>SPD</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>CDU</labl>
+        <catStat type="freq">5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>CSU</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>FDP</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>Bündnis 90 / Die Grünen</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>Die Linke</labl>
+        <catStat type="freq">2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>DVU / Republikaner / NPD</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>Andere</labl>
+        <catStat type="freq">0</catStat>
+      </catgry>
+    </var>
+    <var ID="bp35" intrvl="numeric" files="bp">
+      <labl>Körpergröße</labl>
+      <sumStat type="Min.">150</sumStat>
+      <sumStat type="1st Qu.">163.2</sumStat>
+      <sumStat type="Median">171.5</sumStat>
+      <sumStat type="Mean">170.6</sumStat>
+      <sumStat type="3rd Qu.">177.2</sumStat>
+      <sumStat type="Max.">190</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="bp36" intrvl="numeric" files="bp">
+      <labl>Körpergewicht</labl>
+      <sumStat type="Min.">45</sumStat>
+      <sumStat type="1st Qu.">59</sumStat>
+      <sumStat type="Median">66</sumStat>
+      <sumStat type="Mean">66.75</sumStat>
+      <sumStat type="3rd Qu.">73.5</sumStat>
+      <sumStat type="Max.">88</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="BHHNR" intrvl="numeric" files="bp">
+      <labl></labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3</sumStat>
+      <sumStat type="Median">7</sumStat>
+      <sumStat type="Mean">6.381</sumStat>
+      <sumStat type="3rd Qu.">10</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="PERSNR" intrvl="numeric" files="bp">
+      <labl></labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">132</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1935</sumStat>
+      <sumStat type="3rd Qu.">2910</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="bp"/>
+</codebook>

@@ -1,0 +1,4 @@
+study,distribution,script_generator
+soep-test,v3,TestStata
+soep-test,v3,TestSPSS
+soep-test,v3,TestR

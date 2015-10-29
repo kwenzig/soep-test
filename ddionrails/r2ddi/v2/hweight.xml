@@ -1,0 +1,62 @@
+<codebook>
+  <dataDscr>
+    <var ID="AHHNR" intrvl="numeric" files="hweight">
+      <labl>Aktuelle Haushaltsnummer (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="hweight1" intrvl="numeric" files="hweight">
+      <labl>hweight 2001</labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.75</sumStat>
+      <sumStat type="Median">0.75</sumStat>
+      <sumStat type="Mean">0.8182</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="HHNR" intrvl="numeric" files="hweight">
+      <labl></labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="BHHNR" intrvl="numeric" files="hweight">
+      <labl>Aktuelle Haushaltsnummer (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="hweight2" intrvl="numeric" files="hweight">
+      <labl>hweight 2002</labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.5</sumStat>
+      <sumStat type="Median">0.75</sumStat>
+      <sumStat type="Mean">0.7273</sumStat>
+      <sumStat type="3rd Qu.">0.875</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="hweight"/>
+</codebook>

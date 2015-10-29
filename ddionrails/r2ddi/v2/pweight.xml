@@ -1,0 +1,39 @@
+<codebook>
+  <dataDscr>
+    <var ID="PERSNR" intrvl="numeric" files="pweight">
+      <labl>Unveraenderliche Personennummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">132</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1935</sumStat>
+      <sumStat type="3rd Qu.">2910</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="weight1" intrvl="numeric" files="pweight">
+      <labl>pweight 2001</labl>
+      <sumStat type="Min.">0.9091</sumStat>
+      <sumStat type="1st Qu.">0.9091</sumStat>
+      <sumStat type="Median">0.9091</sumStat>
+      <sumStat type="Mean">1</sumStat>
+      <sumStat type="3rd Qu.">1.111</sumStat>
+      <sumStat type="Max.">1.111</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="weight2" intrvl="numeric" files="pweight">
+      <labl>pweight 2002</labl>
+      <sumStat type="Min.">0.9545</sumStat>
+      <sumStat type="1st Qu.">0.9545</sumStat>
+      <sumStat type="Median">0.9545</sumStat>
+      <sumStat type="Mean">1</sumStat>
+      <sumStat type="3rd Qu.">1.05</sumStat>
+      <sumStat type="Max.">1.05</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="pweight"/>
+</codebook>

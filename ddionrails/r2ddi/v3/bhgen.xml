@@ -1,0 +1,39 @@
+<codebook>
+  <dataDscr>
+    <var ID="BHHNR" intrvl="numeric" files="bhgen">
+      <labl>Aktuelle Haushaltsnummer (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="bh11" intrvl="numeric" files="bhgen">
+      <labl>Durchschnittsnettoeinkommen</labl>
+      <sumStat type="Min.">3491</sumStat>
+      <sumStat type="1st Qu.">3491</sumStat>
+      <sumStat type="Median">3491</sumStat>
+      <sumStat type="Mean">3491</sumStat>
+      <sumStat type="3rd Qu.">3491</sumStat>
+      <sumStat type="Max.">3491</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="bh12" intrvl="numeric" files="bhgen">
+      <labl>Haushaltsgröße</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">1.5</sumStat>
+      <sumStat type="Median">2</sumStat>
+      <sumStat type="Mean">3</sumStat>
+      <sumStat type="3rd Qu.">5</sumStat>
+      <sumStat type="Max.">6</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="bhgen"/>
+</codebook>

@@ -1,0 +1,172 @@
+<codebook>
+  <dataDscr>
+    <var ID="ch01" intrvl="labeled_numeric" files="ch">
+      <labl>Kinder</labl>
+      <sumStat type="valid">13</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">6</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">1</catStat>
+      </catgry>
+    </var>
+    <var ID="ch02" intrvl="numeric" files="ch">
+      <labl>Dummy für Anzahl Kinder</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">0</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">1.154</sumStat>
+      <sumStat type="3rd Qu.">2</sumStat>
+      <sumStat type="Max.">4</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">13</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="ch03" intrvl="numeric" files="ch">
+      <labl>Geburtsjahr Kind A</labl>
+      <sumStat type="Min.">1987</sumStat>
+      <sumStat type="1st Qu.">1988</sumStat>
+      <sumStat type="Median">1990</sumStat>
+      <sumStat type="Mean">1992</sumStat>
+      <sumStat type="3rd Qu.">1995</sumStat>
+      <sumStat type="Max.">1999</sumStat>
+      <sumStat type="NA's">7</sumStat>
+      <sumStat type="valid">7</sumStat>
+      <sumStat type="invalid">7</sumStat>
+    </var>
+    <var ID="ch04" intrvl="numeric" files="ch">
+      <labl>Geburtsjahr Kind B</labl>
+      <sumStat type="Min.">1989</sumStat>
+      <sumStat type="1st Qu.">1992</sumStat>
+      <sumStat type="Median">1995</sumStat>
+      <sumStat type="Mean">1995</sumStat>
+      <sumStat type="3rd Qu.">1999</sumStat>
+      <sumStat type="Max.">2001</sumStat>
+      <sumStat type="NA's">9</sumStat>
+      <sumStat type="valid">5</sumStat>
+      <sumStat type="invalid">9</sumStat>
+    </var>
+    <var ID="ch05" intrvl="numeric" files="ch">
+      <labl>Geburtsjahr Kind C</labl>
+      <sumStat type="Min.">1990</sumStat>
+      <sumStat type="1st Qu.">1992</sumStat>
+      <sumStat type="Median">1995</sumStat>
+      <sumStat type="Mean">1995</sumStat>
+      <sumStat type="3rd Qu.">1998</sumStat>
+      <sumStat type="Max.">2000</sumStat>
+      <sumStat type="NA's">12</sumStat>
+      <sumStat type="valid">2</sumStat>
+      <sumStat type="invalid">12</sumStat>
+    </var>
+    <var ID="ch06" intrvl="numeric" files="ch">
+      <labl>Geburtsjahr Kind C</labl>
+      <sumStat type="Min.">1999</sumStat>
+      <sumStat type="1st Qu.">1999</sumStat>
+      <sumStat type="Median">1999</sumStat>
+      <sumStat type="Mean">1999</sumStat>
+      <sumStat type="3rd Qu.">1999</sumStat>
+      <sumStat type="Max.">1999</sumStat>
+      <sumStat type="NA's">13</sumStat>
+      <sumStat type="valid">1</sumStat>
+      <sumStat type="invalid">13</sumStat>
+    </var>
+    <var ID="ch07" intrvl="labeled_numeric" files="ch">
+      <labl>Wohnungswechsel</labl>
+      <sumStat type="valid">13</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Ja</labl>
+        <catStat type="freq"> 2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Nein</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 1</catStat>
+      </catgry>
+    </var>
+    <var ID="ch08" intrvl="labeled_numeric" files="ch">
+      <labl>Wohngegend</labl>
+      <sumStat type="valid">13</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Ein reines Wohngebiet mit überwiegend Altbauten</labl>
+        <catStat type="freq">3</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>Ein Mischgebiet mit Wohnungen und Geschäften bzw. Gewerbebetrieben</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>Ein Geschäftszentrum (Läden, Banken, Verwaltungen) mit wenigen Wohnungen</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>Ein Gewerbe- bzw. Industriegebiet mit wenigen Wohnungen</labl>
+        <catStat type="freq">1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>Ein reines Wohngebiet mit überwiegend Neubauten</labl>
+        <catStat type="freq">7</catStat>
+      </catgry>
+    </var>
+    <var ID="ch09" intrvl="numeric" files="ch">
+      <labl>Miete in Euro</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">387.5</sumStat>
+      <sumStat type="Median">825</sumStat>
+      <sumStat type="Mean">672.9</sumStat>
+      <sumStat type="3rd Qu.">957.5</sumStat>
+      <sumStat type="Max.">1025</sumStat>
+      <sumStat type="NA's">2</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">2</sumStat>
+    </var>
+    <var ID="ch10" intrvl="numeric" files="ch">
+      <labl>Alle Einkünfte im Monat</labl>
+      <sumStat type="Min.">850</sumStat>
+      <sumStat type="1st Qu.">1844</sumStat>
+      <sumStat type="Median">3221</sumStat>
+      <sumStat type="Mean">3522</sumStat>
+      <sumStat type="3rd Qu.">4774</sumStat>
+      <sumStat type="Max.">7413</sumStat>
+      <sumStat type="NA's">2</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">2</sumStat>
+    </var>
+    <var ID="CHHNR" intrvl="numeric" files="ch">
+      <labl>Aktuelle Haushaltsnummer (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">4.25</sumStat>
+      <sumStat type="Median">7.5</sumStat>
+      <sumStat type="Mean">21</sumStat>
+      <sumStat type="3rd Qu.">10.75</sumStat>
+      <sumStat type="Max.">201</sumStat>
+      <sumStat type="valid">14</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="ch"/>
+</codebook>

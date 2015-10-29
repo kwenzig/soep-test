@@ -1,0 +1,39 @@
+<codebook>
+  <dataDscr>
+    <var ID="AHHNR" intrvl="numeric" files="ahgen">
+      <labl>Aktuelle Haushaltsnummer (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="ah11" intrvl="numeric" files="ahgen">
+      <labl>Durchschnittsnettoeinkommen</labl>
+      <sumStat type="Min.">3380</sumStat>
+      <sumStat type="1st Qu.">3380</sumStat>
+      <sumStat type="Median">3380</sumStat>
+      <sumStat type="Mean">3380</sumStat>
+      <sumStat type="3rd Qu.">3380</sumStat>
+      <sumStat type="Max.">3380</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="ah12" intrvl="numeric" files="ahgen">
+      <labl>Haushaltsgr??e</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">2</sumStat>
+      <sumStat type="Mean">2.818</sumStat>
+      <sumStat type="3rd Qu.">4.5</sumStat>
+      <sumStat type="Max.">6</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="ahgen"/>
+</codebook>

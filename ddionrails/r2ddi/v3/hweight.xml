@@ -1,0 +1,52 @@
+<codebook>
+  <dataDscr>
+    <var ID="hweight1" intrvl="numeric" files="hweight">
+      <labl>hweight 2001</labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.75</sumStat>
+      <sumStat type="Median">0.75</sumStat>
+      <sumStat type="Mean">0.8182</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="NA's">4</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">4</sumStat>
+    </var>
+    <var ID="HHNR" intrvl="numeric" files="hweight">
+      <labl></labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">4.5</sumStat>
+      <sumStat type="Median">8</sumStat>
+      <sumStat type="Mean">8</sumStat>
+      <sumStat type="3rd Qu.">11.5</sumStat>
+      <sumStat type="Max.">15</sumStat>
+      <sumStat type="valid">15</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="hweight2" intrvl="numeric" files="hweight">
+      <labl>hweight 2002</labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.5</sumStat>
+      <sumStat type="Median">0.75</sumStat>
+      <sumStat type="Mean">0.7273</sumStat>
+      <sumStat type="3rd Qu.">0.875</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="NA's">4</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">4</sumStat>
+    </var>
+    <var ID="hweight3" intrvl="numeric" files="hweight">
+      <labl>hweight 2003</labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.5</sumStat>
+      <sumStat type="Median">0.5</sumStat>
+      <sumStat type="Mean">0.8333</sumStat>
+      <sumStat type="3rd Qu.">1.333</sumStat>
+      <sumStat type="Max.">2</sumStat>
+      <sumStat type="NA's">3</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">3</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="hweight"/>
+</codebook>
