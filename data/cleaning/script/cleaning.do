@@ -16,3 +16,14 @@ Steps:
 */
 
 // 1. Copy the data from the folder raw in the input folder in cleaning
+
+local rawfilelist : dir "${raw}" files "*.dta"
+
+foreach filename of local rawfilelist {
+  use ${raw}\`filename'
+  save ${cleaning_input}\`filename'
+  clear
+}
+
+// 2. Edit the varnames in the datasets
+
