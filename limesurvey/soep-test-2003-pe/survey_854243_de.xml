@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="854243">
+  <title>soep-test-2003-pe</title>
+  <investigator/>
+  <dataCollector/>
+  <section id="797">
+    <sectionInfo>
+      <position>title</position>
+      <text>Geschlecht</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Ihr Geschlecht:</text>
+      <response varName="PSEX">
+        <fixed>
+          <category>
+            <label>Männlich</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>Weiblich</label>
+            <value>2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="798">
+    <sectionInfo>
+      <position>title</position>
+      <text>Geburtsjahr</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Ihr Geburtsjahr:</text>
+      <response varName="PPGEB">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="799">
+    <sectionInfo>
+      <position>title</position>
+      <text>Staatsangehörigkeit</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Welche Staatsangehörigkeit haben Sie?</text>
+      <directive>
+        <position>during</position>
+        <text>Bitte eintragen:</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="PPNAT">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="800">
+    <sectionInfo>
+      <position>title</position>
+      <text>Familienstand</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie ist Ihr Familienstand?</text>
+      <response varName="PFAMST">
+        <fixed>
+          <category>
+            <label>Verheiratet, mit Ehepartner zusammenlebend</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>Verheiratet, dauernd getrennt lebend</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Ledig</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Geschieden</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>Verwitwet</label>
+            <value>5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="801">
+    <sectionInfo>
+      <position>title</position>
+      <text>familiäre Veränderungen</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Hat sich an Ihrer familiären Situation nach dem 31.12.1999 etwas verändert? Geben Sie bitte an, ob einer der folgenden Punkte zutrifft.</text>
+      <directive>
+        <position>during</position>
+        <text>Zutreffendes bitte ankreuzen!</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="11">
+        <fixed>
+          <category>
+            <label>Habe geheiratet</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="21">
+        <fixed>
+          <category>
+            <label>Bin mit Partner/Partnerin zusammengezogen</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="31">
+        <fixed>
+          <category>
+            <label>Kind wurde geboren</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="111">
+        <fixed>
+          <category>
+            <label>Kind kam in den Haushalt</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="41">
+        <fixed>
+          <category>
+            <label>Sohn/Tochter hat den Haushalt verlassen</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="51">
+        <fixed>
+          <category>
+            <label>Habe mich von Ehepartner/Lebenspartner getrennt</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="61">
+        <fixed>
+          <category>
+            <label>Wurde geschieden</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="71">
+        <fixed>
+          <category>
+            <label>Ehepartner/Lebenspartner ist verstorben</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="81">
+        <fixed>
+          <category>
+            <label>Vater ist verstorben</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="91">
+        <fixed>
+          <category>
+            <label>Mutter ist verstorben</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="121">
+        <fixed>
+          <category>
+            <label>Haustier eingezogen</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="131">
+        <fixed>
+          <category>
+            <label>Andere Person, die hier im Haushalt lebte, ist verstorben</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="101">
+        <fixed>
+          <category>
+            <label>Sonstige familiäre Veränderung</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="141">
+        <fixed>
+          <category>
+            <label>pflegebedürftige Mutter kam in den Haushalt</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="802">
+    <sectionInfo>
+      <position>title</position>
+      <text>Zufriedenheit</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Zum Schluss möchten wir Sie noch nach Ihrer Zufriedenheit mit Ihrem Leben insgesamt fragen.&lt;/p&gt;
+&lt;p&gt;</text>
+      <text>Wie zufrieden sind Sie gegenwärtig, alles in allem, mit ihrem Leben?&lt;/p&gt;</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;
+	&lt;em&gt;Antworten Sie bitte wieder anhand der folgenden Skala, bei der "0" ganz und gar unzufrieden, "10" ganz und gar zufrieden bedeutet.&lt;/em&gt;&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="PZULE">
+        <fixed>
+          <category>
+            <label>ganz und gar unzufrieden 0</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>1</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>2</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>3</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>4</label>
+            <value>5</value>
+          </category>
+          <category>
+            <label>5</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>6</label>
+            <value>7</value>
+          </category>
+          <category>
+            <label>7</label>
+            <value>8</value>
+          </category>
+          <category>
+            <label>8</label>
+            <value>9</value>
+          </category>
+          <category>
+            <label>9</label>
+            <value>10</value>
+          </category>
+          <category>
+            <label>ganz und gar zufrieden 10</label>
+            <value>11</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;
+	Wie zufrieden sind Sie gegenwärtig mit den folgenden Bereichen Ihres Lebens?&lt;/p&gt;
+&lt;p&gt;
+	Wie zufrieden sind Sie ...&lt;/p&gt;</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;
+	Bitte kreuzen Sie für jeden Bereich auf der Skala einen Wert an:&lt;/p&gt;
+&lt;p&gt;
+	Wenn Sie ganz und gar unzufrieden sind, den Wert "0",&lt;/p&gt;
+&lt;p&gt;
+	wenn Sie ganz und gar zufrieden sind, den Wert "10".&lt;/p&gt;
+&lt;p&gt;
+	Wenn Sie teils zufrieden/teils unzufrieden sind, einen Wert dazwischen.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="PZUFXX_1">
+        <text>mit Ihrer Gesundheit?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_2">
+        <text>mit Ihrem Schlaf?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_3">
+        <text>(falls Sie erwerbstätig sind) mit Ihrer Arbeit?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_4">
+        <text>(falls Sie im Haushalt tätig sind) mit Ihrer Tätigkeit im Haushalt?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_5">
+        <text>mit dem Einkommen Ihres Haushalts?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_6">
+        <text>mit Ihrem persönlichen Einkommen?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_7">
+        <text>mit Ihrer Wohnung?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_8">
+        <text>mit Ihrer Freizeit?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_9">
+        <text>mit Ihrem Familienleben?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_10">
+        <text>(falls Sie Kinder im Vorschulalter haben) mit den vorhandenen Möglichkeiten der Kinderbetreuung?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_11">
+        <text>mit der Demokratie, so wie sie in Deutschland besteht</text>
+      </subQuestion>
+      <response varName="PZUFXX">
+        <fixed>
+          <category>
+            <label>ganz und gar unzufrieden 0</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>1</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>2</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>3</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>4</label>
+            <value>5</value>
+          </category>
+          <category>
+            <label>5</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>6</label>
+            <value>7</value>
+          </category>
+          <category>
+            <label>7</label>
+            <value>8</value>
+          </category>
+          <category>
+            <label>8</label>
+            <value>9</value>
+          </category>
+          <category>
+            <label>9</label>
+            <value>10</value>
+          </category>
+          <category>
+            <label>ganz und gar zufrieden 10</label>
+            <value>11</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="803">
+    <sectionInfo>
+      <position>title</position>
+      <text>berufliche Tätigkeit/genau</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Welche berufliche Tätigkeit üben Sie derzeit aus?</text>
+      <directive>
+        <position>during</position>
+        <text>Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht "kaufmännische Angestellte", sondern: "Speditionskauffrau", nicht "Arbeiter", sondern: "Maschinenschlosser". Wenn Sie Beamter sind, geben Sie bitte Ihre Amtsbezeichnung an, z.B. "Polizeimeister", oder "Studienrat". Wenn Sie Auszubildender sind, geben Sie bitte Ihren Ausbildungsberuf an.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="PBER">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="804">
+    <sectionInfo>
+      <position>title</position>
+      <text>Einkommen/Lohn Betrag</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Geben Sie bitte an, wie hoch im Durchschnitt der monatliche Betrag für folgende Einkunft war: Lohn/Gehalt als Arbeitnehmer (einschl. Ausbildungsvergütung, Altersteilzeitbezüge, Lohnfortzahlungen) (Gemeint ist der Bruttobetrag, also vor Abzug eventueller Steuern und Sozialversicherungsbeiträge).</text>
+      <response varName="PVEK012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="805">
+    <sectionInfo>
+      <position>title</position>
+      <text>Einkommen/selbstständige Tätigkeit Betrag</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Geben Sie bitte an, wie hoch im Durchschnitt der monatliche Betrag für folgende Einkunft war: Einkommen aus selbstständiger/freiberuflicher Tätigkeit (Gemeint ist der Bruttobetrag, also vor Abzug eventueller Steuern und Sozialversicherungsbeiträge).</text>
+      <response varName="PVEK022">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="806">
+    <sectionInfo>
+      <position>title</position>
+      <text>Politikinteresse</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?</text>
+      <response varName="PPOL1">
+        <fixed>
+          <category>
+            <label>Sehr stark</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>Stark</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Nicht so stark</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Überhaupt nicht</label>
+            <value>4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="807">
+    <sectionInfo>
+      <position>title</position>
+      <text>Partei</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Welcher Partei neigen Sie am ehesten zu?</text>
+      <response varName="PPOL3">
+        <fixed>
+          <category>
+            <label>SPD</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>CDU</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>CSU</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>FDP</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>Bündnis 90 / Die Grünen</label>
+            <value>5</value>
+          </category>
+          <category>
+            <label>Die Linke</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>DVU / Republikaner / NPD</label>
+            <value>7</value>
+          </category>
+          <category>
+            <label>Andere</label>
+            <value>8</value>
+          </category>
+          <category>
+            <label>Piraten</label>
+            <value>9</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="808">
+    <sectionInfo>
+      <position>title</position>
+      <text>Körpergröße</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Was ist Ihre Körpergröße in cm?</text>
+      <directive>
+        <position>during</position>
+        <text>Wenn Sie es nicht genau wissen, schätzen Sie bitte.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="PGR">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="809">
+    <sectionInfo>
+      <position>title</position>
+      <text>Körpergewicht</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie viel Kilogramm wiegen Sie gegenwärtig?</text>
+      <directive>
+        <position>during</position>
+        <text>Wenn Sie es nicht genau wissen, schätzen Sie bitte.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="PKILO">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>

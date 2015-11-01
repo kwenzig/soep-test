@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="118523">
+  <title>soep-test-2003-hh</title>
+  <investigator/>
+  <dataCollector/>
+  <section id="782">
+    <sectionInfo>
+      <position>title</position>
+      <text>Kinder</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Gibt es in Ihrem Haushalt Kinder, die erst 1987 oder später geboren sind?</text>
+      <response varName="HKIND">
+        <fixed>
+          <category>
+            <label>Ja</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Nein</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="783">
+    <sectionInfo>
+      <position>title</position>
+      <text>Dummy für Anzahl Kinder</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie viele Kinder gibt es im Haushalt?</text>
+      <response varName="HKIND2">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="784">
+    <sectionInfo>
+      <position>title</position>
+      <text>Geburtsjahr Kind</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Bitte Geburtsjahr eintragen:</text>
+      <response varName="HKGEBABCD">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="785">
+    <sectionInfo>
+      <position>title</position>
+      <text>Wohnungswechsel</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Haben Sie bei unserer letzten Befragung, also vor ungefähr einem Jahr, schon in dieser Wohnung gelebt?</text>
+      <response varName="HVJ">
+        <fixed>
+          <category>
+            <label>Ja</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Nein</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="786">
+    <sectionInfo>
+      <position>title</position>
+      <text>Wohngegend</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie würden Sie die Wohngegend hier beschreiben?</text>
+      <response varName="HWOHN01">
+        <fixed>
+          <category>
+            <label>Ein reines Wohngebiet mit überwiegend Altbauten</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Ein reines Wohngebiet mit überwiegend Neubauten</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>Ein Mischgebiet mit Wohnungen und Geschäften bzw. Gewerbebetrieben</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Ein Geschäftszentrum (Läden, Banken, Verwaltungen) mit wenigen Wohnungen</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>Ein Gewerbe- bzw. Industriegebiet mit wenigen Wohnungen</label>
+            <value>5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="787">
+    <sectionInfo>
+      <position>title</position>
+      <text>Miete in Euro</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie hoch ist derzeit die monatliche Miete?</text>
+      <response varName="HM04">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="788">
+    <sectionInfo>
+      <position>title</position>
+      <text>Alle Einkünfte im Monat</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Wenn man mal alle Einkünfte zusammennimmt:&lt;/p&gt;
+&lt;p&gt;
+	Wie hoch ist das monatliche Haushaltseinkommen aller Haushaltsmitglieder heute?&lt;/p&gt;</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;
+	Bitte geben Sie den monatlichen Netto-Betrag an, also nach Abzug von Steuern und Sozialabgaben. Regelmäßige Zahlungen wie Renten, Wohngeld, Kindergeld, BAföG, Unterhaltszahlungen usw. rechnen Sie bitte dazu!&lt;/p&gt;
+&lt;p&gt;
+	Falls nicht genau bekannt: Bitte schätzen Sie den monatlichen Betrag.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="HNETTO">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>

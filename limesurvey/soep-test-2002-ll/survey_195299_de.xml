@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="195299">
+  <title>soep-test-2002-ll</title>
+  <investigator/>
+  <dataCollector/>
+  <section id="761">
+    <sectionInfo>
+      <position>title</position>
+      <text>Deutschland Geburt</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Sind Sie in Deutschland geboren?</text>
+      <directive>
+        <position>during</position>
+        <text>Gemeint ist: Deutschland bzw. BRD oder DDR in den Staatsgrenzen zur Zeit Ihrer Geburt.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="LSTA1">
+        <fixed>
+          <category>
+            <label>Ja</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Nein</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="762">
+    <sectionInfo>
+      <position>title</position>
+      <text>Zuzug Deutschland</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wann sind Sie in die Bundesrepublik Deutschland zugezogen?</text>
+      <response varName="LZUG01">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="763">
+    <sectionInfo>
+      <position>title</position>
+      <text>Zuwanderergruppe</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Zu welcher der folgenden Zuwanderergruppen gehörten Sie, als Sie nach Deutschland kamen?</text>
+      <response varName="1">
+        <fixed>
+          <category>
+            <label>Aussiedler, d.h. deutschstämmige Person aus osteuropäischen Staaten</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="2">
+        <fixed>
+          <category>
+            <label>Deutscher, der längere Zeit im Ausland gelebt hat</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="3">
+        <fixed>
+          <category>
+            <label>Bürger eines EU-Mitgliedstaates</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="4">
+        <fixed>
+          <category>
+            <label>Asylbewerber oder Flüchtling</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="5">
+        <fixed>
+          <category>
+            <label>Sonstiger Ausländer</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="764">
+    <sectionInfo>
+      <position>title</position>
+      <text>Wohnort vor 1989</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wo haben Sie vor der deutschen Wiedervereinigung, also vor 1989, gewohnt?</text>
+      <response varName="LWIED">
+        <fixed>
+          <category>
+            <label>In der DDR (einschließlich Berlin-Ost)</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>In der Bundesrepublik (einschließlich Berlin-West)</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>In einem anderen Land</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Trifft nicht zu, bin 1989 oder später geboren</label>
+            <value>4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="765">
+    <sectionInfo>
+      <position>title</position>
+      <text>Geschwister</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Haben oder hatten Sie Geschwister?</text>
+      <response varName="LGESCH1">
+        <fixed>
+          <category>
+            <label>Ja</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Nein</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="766">
+    <sectionInfo>
+      <position>title</position>
+      <text>Art Berufsausbildungsabschluss</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Was für ein Ausbildungs- oder Studienabschluss war das?</text>
+      <text> &lt;/p&gt;
+&lt;p&gt;
+	Mehrfachnennungen möglich!&lt;/p&gt;</text>
+      <response varName="2">
+        <fixed>
+          <category>
+            <label>Lehre (DDR: Facharbeiterabschluss)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="3">
+        <fixed>
+          <category>
+            <label>Berufsfachschule, Handelsschule, Schule des Gesundheitswesens</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="4">
+        <fixed>
+          <category>
+            <label>Fachschule, z.B. Meister-, Technikerabschluss</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="5">
+        <fixed>
+          <category>
+            <label>Beamtenausbildung</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="6">
+        <fixed>
+          <category>
+            <label>Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="7">
+        <fixed>
+          <category>
+            <label>Universitäts-, Hochschulabschluss</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="8">
+        <fixed>
+          <category>
+            <label>Sonstiger Abschluss</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="767">
+    <sectionInfo>
+      <position>title</position>
+      <text>Kinder</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Haben oder hatten sie Kinder?</text>
+      <text> &lt;/p&gt;
+&lt;p&gt;
+	Gemeint sind leibliche oder adoptierte Kinder (nicht Pflege- oder Stiefkinder).&lt;/p&gt;</text>
+      <response varName="LKNO">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="768">
+    <sectionInfo>
+      <position>title</position>
+      <text>Anzahl Kinder</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wenn ja, wie viele?</text>
+      <response varName="LKIND">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>
