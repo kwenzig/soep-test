@@ -1,2 +1,2 @@
 *.dta
-!/data/raw/*.dta
+!/data/00_raw/*.dta
