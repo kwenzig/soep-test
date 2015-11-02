@@ -1,4 +1,4 @@
-study,questionnaire,period,analysis_unit,label,description,dataset
+study,name,period,analysis_unit,label,description,dataset
 soep-test,soep-test-2001-hh,2001,h,,,ah
 soep-test,soep-test-2001-ll,2001,p,,,al
 soep-test,soep-test-2001-pe,2001,p,,,ap

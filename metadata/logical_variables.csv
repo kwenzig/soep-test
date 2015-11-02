@@ -1,4 +1,4 @@
-study,logical_dataset,logical_variable,concept,dataset_raw,variable_raw,questionnaire,question,item,primary_key,description,description_long,boost,basket_key,basket_is_default
+study,logical_dataset,name,concept,dataset_raw,variable_raw,questionnaire,question,item,primary_key,description,description_long,boost,basket_key,basket_is_default
 soep-test,ah-raw,hkind,hkind,,,,,,,,,,,
 soep-test,ah-raw,hkind_dummy,hkind_dummy,,,,,,,,,,,
 soep-test,ah-raw,hkgeba,hkgeba,,,,,,,,,,,

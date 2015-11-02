@@ -1,4 +1,4 @@
-study,logical_dataset,period,analysis_unit,conceptual_dataset,label,description
+study,name,period,analysis_unit,conceptual_dataset,label,description
 soep-test,ah,2001,h,org/net,,
 soep-test,al,2001,p,org/net,,
 soep-test,ap,2001,p,org/net,,

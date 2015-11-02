@@ -1,4 +1,4 @@
-conceptual_dataset,label,description
+name,label,description
 org/net,Original data (net),"Information from succesfull interviewed respondents, mostly based on a questionnaire"
 gen,Generated data,Generated data and check for longitudinally consistency
 track,Structure or tracking files,Essential files to track persons or household over time
