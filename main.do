@@ -19,3 +19,6 @@ do ${cleaning}main
 
 // Long generation
 do ${long}main
+
+// Generated variables
+do ${gen}main
