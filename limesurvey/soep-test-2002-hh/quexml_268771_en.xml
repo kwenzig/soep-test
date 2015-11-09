@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="268771">
+  <title/>
+  <investigator/>
+  <dataCollector/>
+  <section id="754">
+    <sectionInfo>
+      <position>title</position>
+      <text>Children</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Are there any children in your household that are born in 1986 or later? (&lt;16)</text>
+      <response varName="HKIND">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="755">
+    <sectionInfo>
+      <position>title</position>
+      <text>Dummy for Number of Children</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How many children are there in your household?</text>
+      <response varName="HKIND2">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="756">
+    <sectionInfo>
+      <position>title</position>
+      <text>Year of Birth Child</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Please enter the year of birth:</text>
+      <response varName="HKGEBABCD">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="757">
+    <sectionInfo>
+      <position>title</position>
+      <text>Change of Residence</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Were you dwelling in this appartment last year during our interview?</text>
+      <response varName="HVJ">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="758">
+    <sectionInfo>
+      <position>title</position>
+      <text>Residential Area</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How would you describe this residential area?</text>
+      <response varName="HWOHN01">
+        <fixed>
+          <category>
+            <label>A mere residential area with predominantly old buildings</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>A mere residential area with predominantly new buildings</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>Mixed area with appartments and stores/ industrial units</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Commercial area (stores, banks, administration) with few appartments</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>Industrial units area with few appartments</label>
+            <value>5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="759">
+    <sectionInfo>
+      <position>title</position>
+      <text>Rent in Euro</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How much is your monthly rent?</text>
+      <response varName="HM04">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="760">
+    <sectionInfo>
+      <position>title</position>
+      <text>Total Income per Month</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>When adding all income sources:</text>
+      <text>How much is the total household income of all household members today?</text>
+      <directive>
+        <position>during</position>
+        <text>Please state the monthly amount after taxes and social insurance contributions. Please add periodic payments such as pensions, housing allowance, child allowance, BAföG, subsistence allowance etc. (If not known exactly: Please guess the monthly amount.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="HNETTO">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>

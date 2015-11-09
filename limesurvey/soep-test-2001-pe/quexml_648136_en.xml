@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="648136">
+  <title/>
+  <investigator/>
+  <dataCollector/>
+  <section id="741">
+    <sectionInfo>
+      <position>title</position>
+      <text>Sex</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Your sex:</text>
+      <response varName="PSEX">
+        <fixed>
+          <category>
+            <label>Male</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Female</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="742">
+    <sectionInfo>
+      <position>title</position>
+      <text>Year of Birth</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Your year of birth:</text>
+      <response varName="PPGEB">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="743">
+    <sectionInfo>
+      <position>title</position>
+      <text>Nationality</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>What is your nationality?</text>
+      <response varName="PPNAT">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="744">
+    <sectionInfo>
+      <position>title</position>
+      <text>Civil Status</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>What is your civil status?</text>
+      <response varName="PFAMST">
+        <fixed>
+          <category>
+            <label>Married, cohabiting</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>Married, permanently separated</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Single</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Divorced</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>Widowed</label>
+            <value>5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="745">
+    <sectionInfo>
+      <position>title</position>
+      <text>Family Changes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Has your family status changed since 1999/12/31?
+&lt;p&gt;</text>
+      <text> &lt;/p&gt;</text>
+      <response varName="11">
+        <fixed>
+          <category>
+            <label>Married</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="21">
+        <fixed>
+          <category>
+            <label>Moved together with partner</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="31">
+        <fixed>
+          <category>
+            <label>Child was born</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="111">
+        <fixed>
+          <category>
+            <label>Child entered household</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="41">
+        <fixed>
+          <category>
+            <label>Daughter/son left household</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="51">
+        <fixed>
+          <category>
+            <label>Seperated from partner/spouse</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="61">
+        <fixed>
+          <category>
+            <label>Divorced</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="71">
+        <fixed>
+          <category>
+            <label>Partner/ spouse passed away</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="81">
+        <fixed>
+          <category>
+            <label>Father passed away</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="91">
+        <fixed>
+          <category>
+            <label>Mother passed away</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="121">
+        <fixed>
+          <category>
+            <label>Child passed away</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="131">
+        <fixed>
+          <category>
+            <label>Another person in household passed away</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="101">
+        <fixed>
+          <category>
+            <label>Other family changes</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="746">
+    <sectionInfo>
+      <position>title</position>
+      <text>Satisfaction</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How satisfied are you currently altogether with your life?</text>
+      <response varName="PZULE1">
+        <fixed>
+          <category>
+            <label>not satisfied at all 0</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>1</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>2</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>3</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>4</label>
+            <value>5</value>
+          </category>
+          <category>
+            <label>5</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>6</label>
+            <value>7</value>
+          </category>
+          <category>
+            <label>7</label>
+            <value>8</value>
+          </category>
+          <category>
+            <label>8</label>
+            <value>9</value>
+          </category>
+          <category>
+            <label>9</label>
+            <value>10</value>
+          </category>
+          <category>
+            <label>throughout satisfied 10</label>
+            <value>11</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How satisfied are you currently with the following areas?</text>
+      <subQuestion varName="PZUFXX_1">
+        <text>with your health?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_2">
+        <text>with your sleep?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_3">
+        <text>(in case of employment) with your work?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_4">
+        <text/>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_5">
+        <text>with your household income?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_6">
+        <text>with your personal income?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_7">
+        <text>with your accomodation?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_8">
+        <text>with your leisure time?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_9">
+        <text>with your family life?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_10">
+        <text>(in case of having children in pre-school age) with the existing possibilities of daycare?</text>
+      </subQuestion>
+      <subQuestion varName="PZUFXX_11">
+        <text>with the democacy how it is persisting in Germany?</text>
+      </subQuestion>
+      <response varName="PZUFXX">
+        <fixed>
+          <category>
+            <label>ganz und gar unzufrieden 0</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>1</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>2</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>3</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>4</label>
+            <value>5</value>
+          </category>
+          <category>
+            <label>5</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>6</label>
+            <value>7</value>
+          </category>
+          <category>
+            <label>7</label>
+            <value>8</value>
+          </category>
+          <category>
+            <label>8</label>
+            <value>9</value>
+          </category>
+          <category>
+            <label>9</label>
+            <value>10</value>
+          </category>
+          <category>
+            <label>ganz und gar zufrieden 10</label>
+            <value>11</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="747">
+    <sectionInfo>
+      <position>title</position>
+      <text>Occupational Activity (exact)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>What kind of occupation do you carry out at the moment?</text>
+      <response varName="PBER">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="748">
+    <sectionInfo>
+      <position>title</position>
+      <text>Income/ Wage (amount)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Please specify the average monthly amount for the following income: wage as employee:</text>
+      <text> &lt;/p&gt;
+&lt;p&gt;
+	(incl. apprenticeship pay, partial retirement pay, employee leave benefits)&lt;/p&gt;
+&lt;p&gt;
+	(gross amount before taxes and social insurance fees).&lt;/p&gt;</text>
+      <response varName="PVEK012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="749">
+    <sectionInfo>
+      <position>title</position>
+      <text>Income/ Selfemployment (amount)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Please specify the average monthly amount for the following income:</text>
+      <text> &lt;/p&gt;
+&lt;p&gt;
+	income from selfemployment/ freelance work&lt;/p&gt;
+&lt;p&gt;
+	(gross amount before taxes and social insurance fees).&lt;/p&gt;</text>
+      <response varName="PVEK022">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="750">
+    <sectionInfo>
+      <position>title</position>
+      <text>Interest in Politics</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>In general: How strong is your interest in politics?</text>
+      <response varName="PPOL1">
+        <fixed>
+          <category>
+            <label>Very strong</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>Strong</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Not very strong</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Not at all</label>
+            <value>4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="751">
+    <sectionInfo>
+      <position>title</position>
+      <text>Party</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Which party do you lean towards?</text>
+      <response varName="PPOL3">
+        <fixed>
+          <category>
+            <label>SPD</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>CDU</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>CSU</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>FDP</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>Bündnis 90 / Die Grünen</label>
+            <value>5</value>
+          </category>
+          <category>
+            <label>Die Linke</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>DVU / Republikaner / NPD</label>
+            <value>7</value>
+          </category>
+          <category>
+            <label>Others</label>
+            <value>8</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="752">
+    <sectionInfo>
+      <position>title</position>
+      <text>Body height</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>What is your body height in cm?</text>
+      <directive>
+        <position>during</position>
+        <text>If unknown, please make a guess.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="PGR">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="753">
+    <sectionInfo>
+      <position>title</position>
+      <text>Body weight</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>What is your body weight in kg?</text>
+      <directive>
+        <position>during</position>
+        <text>If unknown, please make a guess.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="PKILO">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>

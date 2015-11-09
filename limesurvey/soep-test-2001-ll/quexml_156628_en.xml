@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="156628">
+  <title/>
+  <investigator/>
+  <dataCollector/>
+  <section id="733">
+    <sectionInfo>
+      <position>title</position>
+      <text>Germany Nativity</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Are you born in Germany?</text>
+      <response varName="LSTA1">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="734">
+    <sectionInfo>
+      <position>title</position>
+      <text>Moving to Germany</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>When did you move to the Federal Republic of Germany?</text>
+      <response varName="LZUG01">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="735">
+    <sectionInfo>
+      <position>title</position>
+      <text>Immigrant Group</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>To which of the following immigrant groups do you belong when migrating to Germany?</text>
+      <response varName="1">
+        <fixed>
+          <category>
+            <label>Emigrant, meaning German speaking people from easteuropean countries</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="2">
+        <fixed>
+          <category>
+            <label>German that has been living overseas for some time</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="3">
+        <fixed>
+          <category>
+            <label>Citizen of EU member  state</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="4">
+        <fixed>
+          <category>
+            <label>Asylum seeker or refugee</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="5">
+        <fixed>
+          <category>
+            <label>Other foreigner</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="736">
+    <sectionInfo>
+      <position>title</position>
+      <text>Domicile before 1989</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Where have you been living before the German reunification, before 1989?</text>
+      <response varName="LWIED">
+        <fixed>
+          <category>
+            <label>German Democratic Republic incl. East-Berlin</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>Federal German Republic incl. West-Berlin</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>In another country</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Inapplicable, I was born in 1989 or later</label>
+            <value>4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="737">
+    <sectionInfo>
+      <position>title</position>
+      <text>Siblings</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Do or did you have siblings?</text>
+      <response varName="LGESCH1">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="738">
+    <sectionInfo>
+      <position>title</position>
+      <text>Degree of education</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	What kind of educational degree was it?</text>
+      <text> &lt;/p&gt;
+&lt;p&gt;
+	Multiple answers possible!&lt;/p&gt;</text>
+      <response varName="2">
+        <fixed>
+          <category>
+            <label>Apprenticeship (GDR: craftsman degree)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="3">
+        <fixed>
+          <category>
+            <label>Vocational school, business school, health school</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="4">
+        <fixed>
+          <category>
+            <label>Technical school, i.e. technican degree, master degree</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="5">
+        <fixed>
+          <category>
+            <label>Public officer education</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="6">
+        <fixed>
+          <category>
+            <label>University of applied science, university of cooperative education</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="7">
+        <fixed>
+          <category>
+            <label>University degree</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="8">
+        <fixed>
+          <category>
+            <label>Other degree</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="739">
+    <sectionInfo>
+      <position>title</position>
+      <text>Children</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Do you have children or have you had children?&lt;/p&gt;</text>
+      <response varName="LKNO">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="740">
+    <sectionInfo>
+      <position>title</position>
+      <text>Number of Children</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>If yes, how many?</text>
+      <response varName="LKIND">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>
