@@ -20,8 +20,8 @@ Steps:
 local cleaning_outputfilelist : dir "${cleaning_output}" files "*.dta"
 
 foreach filename of local cleaning_outputfilelist {
-  use ${cleaning_output}\`filename'
-  save ${long_input}\`filename', replace
+  use ${cleaning_output}/`filename'
+  save ${long_input}/`filename', replace
   clear
 }
 
@@ -31,9 +31,9 @@ foreach filename of local cleaning_outputfilelist {
 local long_inputfilelist : dir "${long_input}" files "*.dta"
 
 foreach filename of local long_inputfilelist {
-  use ${long_input}\`filename'
+  use ${long_input}/`filename'
   // ...
-  save ${long_temp}\`filename', replace
+  save ${long_temp}/`filename', replace
   clear
 }
 
@@ -44,9 +44,9 @@ local long_tempfilelist : dir "${long_temp}" files "*.dta"
 
 /*
 foreach filename of local long_tempfilelist {
-  use ${long_temp}\`filename'
+  use ${long_temp}/`filename'
   // ...
-  save ${long_temp}\`filename', replace
+  save ${long_temp}/`filename', replace
   clear
 }
 */
@@ -55,7 +55,7 @@ foreach filename of local long_tempfilelist {
 // 5. Save cleaned data in output
 
 foreach filename of local long_tempfilelist {
-  use ${long_temp}\`filename'
-  save ${long_output}\`filename', replace
+  use ${long_temp}/`filename'
+  save ${long_output}/`filename', replace
   clear
 }

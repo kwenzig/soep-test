@@ -20,8 +20,8 @@ Steps:
 local long_outputfilelist : dir "${long_output}" files "*.dta"
 
 foreach filename of local long_outputfilelist {
-  use ${long_output}\`filename'
-  save ${gen_input}\`filename', replace
+  use ${long_output}/`filename'
+  save ${gen_input}/`filename', replace
   clear
 }
 
@@ -31,9 +31,9 @@ foreach filename of local long_outputfilelist {
 local gen_inputfilelist : dir "${gen_input}" files "*.dta"
 
 foreach filename of local gen_inputfilelist {
-  use ${gen_input}\`filename'
+  use ${gen_input}/`filename'
   // ...
-  save ${gen_temp}\`filename', replace
+  save ${gen_temp}/`filename', replace
   clear
 }
 
@@ -44,9 +44,9 @@ local gen_tempfilelist : dir "${gen_temp}" files "*.dta"
 
 /*
 foreach filename of local gen_tempfilelist {
-  use ${gen_temp}\`filename'
+  use ${gen_temp}/`filename'
   // ...
-  save ${gen_temp}\`filename', replace
+  save ${gen_temp}/`filename', replace
   clear
 }
 */
@@ -55,7 +55,7 @@ foreach filename of local gen_tempfilelist {
 // 4. Save generated data in output
 
 foreach filename of local gen_tempfilelist {
-  use ${gen_temp}\`filename'
-  save ${gen_output}\`filename', replace
+  use ${gen_temp}/`filename'
+  save ${gen_output}/`filename', replace
   clear
 }
