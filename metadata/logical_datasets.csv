@@ -1,4 +1,4 @@
-study,name,period,analysis_unit,conceptual_dataset,label,description
+studies_name,name,periods_name,analysis_unit_name,conceptual_datasets_name,label,description
 soep-test,ah,2001,h,org/net,,
 soep-test,al,2001,p,org/net,,
 soep-test,ap,2001,p,org/net,,
